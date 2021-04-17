@@ -1,0 +1,4 @@
+--- Example of: Single ---
+Copyright (c) 2021 Razeware LLC
+...
+

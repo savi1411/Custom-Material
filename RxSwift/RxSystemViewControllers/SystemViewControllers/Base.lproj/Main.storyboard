@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SystemViewControllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Boat" translatesAutoresizingMaskIntoConstraints="NO" id="NBt-sY-FGl">
+                                <rect key="frame" x="20" y="64" width="374" height="374"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NBt-sY-FGl" secondAttribute="height" multiplier="1:1" id="2Vc-o3-P53"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1Tp-g4-uS8">
+                                <rect key="frame" x="69" y="458" width="276" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHw-u1-aVs">
+                                        <rect key="frame" x="0.0" y="0.0" width="54" height="30"/>
+                                        <state key="normal" title="Share"/>
+                                        <connections>
+                                            <action selector="shareButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dox-qi-TYT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiR-wE-7Fv">
+                                        <rect key="frame" x="74" y="0.0" width="54" height="30"/>
+                                        <state key="normal" title="Safari"/>
+                                        <connections>
+                                            <action selector="safariButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pJD-U8-mOw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wj-wj-dsl">
+                                        <rect key="frame" x="148" y="0.0" width="54" height="30"/>
+                                        <state key="normal" title="Camera"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPn-kX-h4b">
+                                        <rect key="frame" x="222" y="0.0" width="54" height="30"/>
+                                        <state key="normal" title="Email"/>
+                                        <connections>
+                                            <action selector="emailButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WER-BS-XyI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1Tp-g4-uS8" firstAttribute="top" secondItem="NBt-sY-FGl" secondAttribute="bottom" constant="20" id="FbW-u6-8yD"/>
+                            <constraint firstItem="NBt-sY-FGl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Kdd-Zg-QDb"/>
+                            <constraint firstItem="1Tp-g4-uS8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S5a-DS-Wx6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NBt-sY-FGl" secondAttribute="trailing" constant="20" id="VP7-ge-N5b"/>
+                            <constraint firstItem="NBt-sY-FGl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="WGd-bK-DmC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraButton" destination="0wj-wj-dsl" id="0xW-ar-cYw"/>
+                        <outlet property="imageView" destination="NBt-sY-FGl" id="spV-8D-jUl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Boat" width="640" height="960"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

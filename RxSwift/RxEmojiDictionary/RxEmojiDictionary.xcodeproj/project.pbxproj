@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC30753261B9AA9008BC9A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC30752261B9AA9008BC9A7 /* AppDelegate.swift */; };
+		0BC30755261B9AA9008BC9A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC30754261B9AA9008BC9A7 /* SceneDelegate.swift */; };
+		0BC30757261B9AA9008BC9A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC30756261B9AA9008BC9A7 /* ViewController.swift */; };
+		0BC3075A261B9AA9008BC9A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC30758261B9AA9008BC9A7 /* Main.storyboard */; };
+		0BC3075C261B9AAD008BC9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC3075B261B9AAD008BC9A7 /* Assets.xcassets */; };
+		0BC3075F261B9AAD008BC9A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC3075D261B9AAD008BC9A7 /* LaunchScreen.storyboard */; };
+		0BC30768261B9AE2008BC9A7 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC30767261B9AE2008BC9A7 /* Emoji.swift */; };
+		0BC3076B261B9BEC008BC9A7 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3076A261B9BEC008BC9A7 /* EmojiTableViewController.swift */; };
+		615F13720A016EB6D8254912 /* Pods_RxEmojiDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA18949C2AC6EF36A6662FF8 /* Pods_RxEmojiDictionary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BC3074F261B9AA9008BC9A7 /* RxEmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxEmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC30752261B9AA9008BC9A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BC30754261B9AA9008BC9A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0BC30756261B9AA9008BC9A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BC30759261B9AA9008BC9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BC3075B261B9AAD008BC9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BC3075E261B9AAD008BC9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BC30760261B9AAD008BC9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC30767261B9AE2008BC9A7 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		0BC3076A261B9BEC008BC9A7 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		1585B282130414C7B5B39D3B /* Pods-RxEmojiDictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxEmojiDictionary.debug.xcconfig"; path = "Target Support Files/Pods-RxEmojiDictionary/Pods-RxEmojiDictionary.debug.xcconfig"; sourceTree = "<group>"; };
+		393737DA89B1D903435AAB66 /* Pods-RxEmojiDictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxEmojiDictionary.release.xcconfig"; path = "Target Support Files/Pods-RxEmojiDictionary/Pods-RxEmojiDictionary.release.xcconfig"; sourceTree = "<group>"; };
+		AA18949C2AC6EF36A6662FF8 /* Pods_RxEmojiDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxEmojiDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BC3074C261B9AA9008BC9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615F13720A016EB6D8254912 /* Pods_RxEmojiDictionary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC30746261B9AA9008BC9A7 = {
+			isa = PBXGroup;
+			children = (
+				0BC30751261B9AA9008BC9A7 /* RxEmojiDictionary */,
+				0BC30750261B9AA9008BC9A7 /* Products */,
+				45FF5AD6CA427998F1A033A1 /* Pods */,
+				144475AC021F31D61CDD9853 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BC30750261B9AA9008BC9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BC3074F261B9AA9008BC9A7 /* RxEmojiDictionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BC30751261B9AA9008BC9A7 /* RxEmojiDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				0BC30752261B9AA9008BC9A7 /* AppDelegate.swift */,
+				0BC30767261B9AE2008BC9A7 /* Emoji.swift */,
+				0BC30754261B9AA9008BC9A7 /* SceneDelegate.swift */,
+				0BC3076A261B9BEC008BC9A7 /* EmojiTableViewController.swift */,
+				0BC30756261B9AA9008BC9A7 /* ViewController.swift */,
+				0BC30758261B9AA9008BC9A7 /* Main.storyboard */,
+				0BC3075B261B9AAD008BC9A7 /* Assets.xcassets */,
+				0BC3075D261B9AAD008BC9A7 /* LaunchScreen.storyboard */,
+				0BC30760261B9AAD008BC9A7 /* Info.plist */,
+			);
+			path = RxEmojiDictionary;
+			sourceTree = "<group>";
+		};
+		144475AC021F31D61CDD9853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA18949C2AC6EF36A6662FF8 /* Pods_RxEmojiDictionary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45FF5AD6CA427998F1A033A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1585B282130414C7B5B39D3B /* Pods-RxEmojiDictionary.debug.xcconfig */,
+				393737DA89B1D903435AAB66 /* Pods-RxEmojiDictionary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BC3074E261B9AA9008BC9A7 /* RxEmojiDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC30763261B9AAD008BC9A7 /* Build configuration list for PBXNativeTarget "RxEmojiDictionary" */;
+			buildPhases = (
+				1ACAC53DC8A13D548DC8A073 /* [CP] Check Pods Manifest.lock */,
+				0BC3074B261B9AA9008BC9A7 /* Sources */,
+				0BC3074C261B9AA9008BC9A7 /* Frameworks */,
+				0BC3074D261B9AA9008BC9A7 /* Resources */,
+				78623B7391F07722D3F3998B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxEmojiDictionary;
+			productName = RxEmojiDictionary;
+			productReference = 0BC3074F261B9AA9008BC9A7 /* RxEmojiDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BC30747261B9AA9008BC9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0BC3074E261B9AA9008BC9A7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 0BC3074A261B9AA9008BC9A7 /* Build configuration list for PBXProject "RxEmojiDictionary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BC30746261B9AA9008BC9A7;
+			productRefGroup = 0BC30750261B9AA9008BC9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC3074E261B9AA9008BC9A7 /* RxEmojiDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC3074D261B9AA9008BC9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC3075F261B9AAD008BC9A7 /* LaunchScreen.storyboard in Resources */,
+				0BC3075C261B9AAD008BC9A7 /* Assets.xcassets in Resources */,
+				0BC3075A261B9AA9008BC9A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ACAC53DC8A13D548DC8A073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxEmojiDictionary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78623B7391F07722D3F3998B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxEmojiDictionary/Pods-RxEmojiDictionary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxEmojiDictionary/Pods-RxEmojiDictionary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxEmojiDictionary/Pods-RxEmojiDictionary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC3074B261B9AA9008BC9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC30757261B9AA9008BC9A7 /* ViewController.swift in Sources */,
+				0BC30753261B9AA9008BC9A7 /* AppDelegate.swift in Sources */,
+				0BC30768261B9AE2008BC9A7 /* Emoji.swift in Sources */,
+				0BC30755261B9AA9008BC9A7 /* SceneDelegate.swift in Sources */,
+				0BC3076B261B9BEC008BC9A7 /* EmojiTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BC30758261B9AA9008BC9A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC30759261B9AA9008BC9A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BC3075D261B9AAD008BC9A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC3075E261B9AAD008BC9A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BC30761261B9AAD008BC9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BC30762261B9AAD008BC9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BC30764261B9AAD008BC9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1585B282130414C7B5B39D3B /* Pods-RxEmojiDictionary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z52C2D469B;
+				INFOPLIST_FILE = RxEmojiDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calsavi.RxEmojiDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BC30765261B9AAD008BC9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393737DA89B1D903435AAB66 /* Pods-RxEmojiDictionary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z52C2D469B;
+				INFOPLIST_FILE = RxEmojiDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calsavi.RxEmojiDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC3074A261B9AA9008BC9A7 /* Build configuration list for PBXProject "RxEmojiDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC30761261B9AAD008BC9A7 /* Debug */,
+				0BC30762261B9AAD008BC9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC30763261B9AAD008BC9A7 /* Build configuration list for PBXNativeTarget "RxEmojiDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC30764261B9AAD008BC9A7 /* Debug */,
+				0BC30765261B9AAD008BC9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BC30747261B9AA9008BC9A7 /* Project object */;
+}
